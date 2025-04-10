@@ -46,21 +46,29 @@
 
 #
 ```
-    Microcontroler: ESP32-C6-WROOM-1-N1 (U2). Acesta este un microcontroler puternic cu conectivitate Wi-Fi, Bluetooth, care gestionează procesarea datelor, comunicațiile și controlul general al dispozitivului.
+        Microcontroler: ESP32-C6-WROOM-1-N1 (U2). Acesta este un microcontroler puternic cu conectivitate
+    Wi-Fi, Bluetooth, care gestionează procesarea datelor, comunicațiile și controlul general
+    al dispozitivului.
 
     Alimentare:
         Un conector USB-C furnizează intrarea principală de alimentare.
         Un regulator LDO de tensiune (IC4, XC6220A331MR-G) asigură o tensiune stabilă pentru componente.
-        Un controler de încărcare pentru baterii Li-Po (MCP73831) gestionează încărcarea bateriei, permițând funcționarea autonomă.
+        Un controler de încărcare pentru baterii Li-Po (MCP73831) gestionează încărcarea bateriei,
+            permițând funcționarea autonomă.
         MAX17048G+T10 (U4) monitorizează nivelul de încărcare al bateriei.
 
-    Stocare de date: O memorie Flash NOR externă (U1, W25Q512JVEIQ) oferă stocare non-volatilă pentru jurnalizarea datelor, firmware sau alte informații. Este prezent și un slot pentru card SD pentru stocare detașabilă.
+        Stocare de date: O memorie Flash NOR externă (U1, W25Q512JVEIQ) oferă stocare non-volatilă
+    pentru jurnalizarea datelor, firmware sau alte informații. Este prezent și un slot pentru card SD
+    pentru stocare detașabilă.
 
-    Ceas în timp real (RTC): Modulul RTC DS3231SN (U3) menține o măsurare precisă a timpului, esențială pentru marcarea temporală a datelor. Un supercondensator (C10) oferă alimentare de rezervă pentru RTC.
+        Ceas în timp real (RTC): Modulul RTC DS3231SN (U3) menține o măsurare precisă a timpului,
+    esențială pentru marcarea temporală a datelor. Un supercondensator (C10) oferă alimentare de
+    rezervă pentru RTC.
 
-    Senzori de mediu: Un senzor BME688 măsoară parametrii de mediu (temperatură, umiditate, presiune și gaze).
+        Senzori de mediu: Un senzor BME688 măsoară parametrii de mediu (temperatură, umiditate).
 
-    Afișaj: Un ecran E-Paper este utilizat pentru afișarea informațiilor. Interfața cu ecranul include un conector (FH34SR-24S-0.5SH_99) și circuitele de susținere.
+        Afișaj: Un ecran E-Paper este utilizat pentru afișarea informațiilor. Interfața cu ecranul
+    include un conector (FH34SR-24S-0.5SH_99) și circuitele de susținere.
 
     Interfață cu utilizatorul:
         Butoanele Boot și Reset permit controlul sistemului și actualizări de firmware.
@@ -69,7 +77,8 @@
     Comunicație: ESP32-C6 oferă capabilități de comunicare wireless (Wi-Fi, Bluetooth).
 
     Alte componente:
-        Dispozitive de protecție ESD (USBLC6-2SC6Y, PEMF050.1) protejează circuitul de descărcări electrostatice.
+        Dispozitive de protecție ESD (USBLC6-2SC6Y, PEMF050.1) protejează circuitul de descărcări
+            electrostatice.
         Paduri de test sunt incluse pentru depanare și testare.
         Un conector Qwiic/Stemma QT permite conectarea ușoară a dispozitivelor externe I2C.
 ```
@@ -78,23 +87,29 @@
 ```
     Pini de alimentare: Pinii conectați la 3V3 și GND furnizează alimentare și împământare pentru ESP32-C6.
 
-    Comunicație USB: Pinii conectați la conectorul USB-C (prin protecție ESD) sunt utilizați pentru comunicația și alimentarea prin USB.
+        Comunicație USB: Pinii conectați la conectorul USB-C (prin protecție ESD) sunt utilizați pentru
+    comunicația și alimentarea prin USB.
 
-    Interfață card SD: Pinii conectați la slotul pentru card SD (DAT0, DAT1, DAT2, CMD, CLK) sunt utilizați pentru interfața cu cardul SD.
+        Interfață card SD: Pinii conectați la slotul pentru card SD (DAT0, DAT1, DAT2, CMD, CLK) sunt
+    utilizați pentru interfața cu cardul SD.
 
-    Comunicație SPI: Pinii conectați la memoria Flash externă (W25Q512JVEIQ) (CS, SCK, DO, DI) sunt utilizați pentru comunicația SPI.
+        Comunicație SPI: Pinii conectați la memoria Flash externă (W25Q512JVEIQ) (CS, SCK, DO, DI) sunt
+    utilizați pentru comunicația SPI.
 
-    Comunicație I2C: Pinii conectați la RTC (DS3231SN) și la conectorul Qwiic (SDA, SCL) sunt utilizați pentru comunicația I2C. Senzorul BME688 utilizează și el I2C, prin tag-ul I2C_PW.
+        Comunicație I2C: Pinii conectați la RTC (DS3231SN) și la conectorul Qwiic (SDA, SCL) sunt utilizați
+    pentru comunicația I2C. Senzorul BME688 utilizează și el I2C, prin tag-ul I2C_PW.
 
     Pini GPIO:
-        Pinii conectați la butoanele Boot, Reset și Change sunt utilizați ca pini de intrare/ieșire generală (GPIO) pentru a citi starea butoanelor.
+        Pinii conectați la butoanele Boot, Reset și Change sunt utilizați ca pini de intrare/ieșire
+            generală (GPIO) pentru a citi starea butoanelor.
         Pinii conectați la interfața ecranului E-Paper sunt GPIO-uri utilizate pentru a controla afișajul.
         Alți pini GPIO pot fi utilizați pentru semnale de control sau indicatori de stare.
 ```
 
 # ERORI ACCEPTATE
 ```
-    Am acceptat erorile cauzate de nerutarea pinilor GND deoarece am deja 2 planuri de masă puse pe pe placă, iar eu consider că nu este necesară rutarea acestor pini între ei, în final ei legându-se la masă.
+        Am acceptat erorile cauzate de nerutarea pinilor GND deoarece am deja 2 planuri de masă puse pe pe placă,
+    iar eu consider că nu este necesară rutarea acestor pini între ei, în final ei legându-se la masă.
 ```
 
 
