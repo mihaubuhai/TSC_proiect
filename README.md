@@ -30,24 +30,23 @@
 | LTSPICE_C 0.1uF                     | [datasheet](https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10E104KC8VPNC/20498486) | [vendor](https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10E104KC8VPNC/20498486) |
 | ADAFRUIT_LED                        | [datasheet](https://www.adafruit.com/product/4684) | [vendor](https://www.adafruit.com/product/4684) |
 | ESP32_VARISTOR                      | [datasheet](https://uk.rs-online.com/web/p/varistors/9012743) | [vendor](https://uk.rs-online.com/web/p/varistors/9012743) |
-| CT3528 (RCL_CPOL-EU) 100uF          | [datasheet](https://www.datasheetarchive.com/?q=ct3528) |
+| CT3528 (RCL_CPOL-EU) 100uF          | [datasheet](https://www.datasheetarchive.com/?q=ct3528) | [vendor](https://ro.mouser.com/ProductDetail/Panasonic/EEU-FS1K101L?qs=sGAEpiMZZMvwFf0viD3Y3fHxNcSaiftwbgqrEa58hlq7Mz20qWHEdw%3D%3D) |
 | DMG2305UX-7 20V/4.2A/52mO/1.4W      | [datasheet](https://www.digikey.com/en/products/detail/diodes-incorporated/DMG2305UX-7/4340667) | [vendor](https://www.digikey.com/en/products/detail/diodes-incorporated/DMG2305UX-7/4340667) |
 | IND-4828-WE-TPC-WRE                 | [datasheet](https://www.axel-gl.com/en/asone/d/64-0172-48/) | [vendor](https://www.axel-gl.com/en/asone/d/64-0172-48/) |
 | JS-1MM(QWIIC_CONNECTOR)             | [datasheet](https://www.sparkfun.com/qwiic-jst-connector-smd-4-pin-horizontal.html) | [vendor](https://www.sparkfun.com/qwiic-jst-connector-smd-4-pin-horizontal.html) |
-| LTSPICE_R 5k1                       | [vendor](https://www.amazon.com/BOJACK-Values-Resistor-Resistors-Assortment/dp/B08FD1XVL6/ref=sr_1_1_sspa?sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY) |
-| LTSPICE_R 100k                      | [vendor](https://www.amazon.com/BOJACK-Values-Resistor-Resistors-Assortment/dp/B08FD1XVL6/ref=sr_1_1_sspa?sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY) |
-| LTSPICE_R 2.2                       | [vendor](https://www.amazon.com/BOJACK-Values-Resistor-Resistors-Assortment/dp/B08FD1XVL6/ref=sr_1_1_sspa?sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY) |
-| LTSPICE_R 10k                       | [vendor](https://www.amazon.com/BOJACK-Values-Resistor-Resistors-Assortment/dp/B08FD1XVL6/ref=sr_1_1_sspa?sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY) |
-| LTSPICE_R 0.47                      | [vendor](https://www.amazon.com/BOJACK-Values-Resistor-Resistors-Assortment/dp/B08FD1XVL6/ref=sr_1_1_sspa?sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY) |
-| LTSPICE_R 2k                        | [vendor](https://www.amazon.com/BOJACK-Values-Resistor-Resistors-Assortment/dp/B08FD1XVL6/ref=sr_1_1_sspa?sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY) |
-| LTSPICE_R 200                       | [vendor](https://www.amazon.com/BOJACK-Values-Resistor-Resistors-Assortment/dp/B08FD1XVL6/ref=sr_1_1_sspa?sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY) |
-| LTSPICE_R 15                        | [vendor](https://www.amazon.com/BOJACK-Values-Resistor-Resistors-Assortment/dp/B08FD1XVL6/ref=sr_1_1_sspa?sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY) |
+| LTSPICE_R 5k1                      | [datasheet](https://www.vishay.com/docs/53046/pfrr.pdf) | [vendor](https://www.amazon.com/BOJACK-Values-Resistor-Resistors-Assortment/dp/B08FD1XVL6/ref=sr_1_1_sspa?sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY) |
+| LTSPICE_R 100k                     | [datasheet](https://www.vishay.com/docs/53046/pfrr.pdf) | [vendor](https://www.amazon.com/BOJACK-Values-Resistor-Resistors-Assortment/dp/B08FD1XVL6/ref=sr_1_1_sspa?sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY) |
+| LTSPICE_R 2.2                      | [datasheet](https://www.vishay.com/docs/53046/pfrr.pdf) | [vendor](https://www.amazon.com/BOJACK-Values-Resistor-Resistors-Assortment/dp/B08FD1XVL6/ref=sr_1_1_sspa?sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY) |
+| LTSPICE_R 10k                      | [datasheet](https://www.vishay.com/docs/53046/pfrr.pdf) | [vendor](https://www.amazon.com/BOJACK-Values-Resistor-Resistors-Assortment/dp/B08FD1XVL6/ref=sr_1_1_sspa?sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY) |
+| LTSPICE_R 0.47                     | [datashet](https://www.vishay.com/docs/53046/pfrr.pdf) | [vendor](https://www.amazon.com/BOJACK-Values-Resistor-Resistors-Assortment/dp/B08FD1XVL6/ref=sr_1_1_sspa?sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY) |
+| LTSPICE_R 2k                       | [datasheet](https://www.vishay.com/docs/53046/pfrr.pdf) | [vendor](https://www.amazon.com/BOJACK-Values-Resistor-Resistors-Assortment/dp/B08FD1XVL6/ref=sr_1_1_sspa?sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY) |
+| LTSPICE_R 200                      | [datasheet](https://www.vishay.com/docs/53046/pfrr.pdf) | [vendor](https://www.amazon.com/BOJACK-Values-Resistor-Resistors-Assortment/dp/B08FD1XVL6/ref=sr_1_1_sspa?sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY) |
+| LTSPICE_R 15                       | [datasheet](https://www.vishay.com/docs/53046/pfrr.pdf) | [vendor](https://www.amazon.com/BOJACK-Values-Resistor-Resistors-Assortment/dp/B08FD1XVL6/ref=sr_1_1_sspa?sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY) |
 | Test Pad TP20R                      | [datasheet](https://us.misumi-ec.com/vona2/detail/221005496391/?HissuCode=TP20R-24) | [vendor](https://us.misumi-ec.com/vona2/detail/221005496391/?HissuCode=TP20R-24) |
 
 #
-    Această schemă electrică reprezintă un sistem embedded compact proiectat pentru achiziția, procesarea și afișarea de date, probabil un dispozitiv portabil sau purtabil pentru monitorizarea mediului. Iată o prezentare funcțională:
-
-    Microcontroler: Inima sistemului este un ESP32-C6-WROOM-1-N1 (U2). Acesta este un microcontroler puternic cu conectivitate Wi-Fi, Bluetooth și Zigbee, care gestionează procesarea datelor, comunicațiile și controlul general al dispozitivului.
+```
+    Microcontroler: ESP32-C6-WROOM-1-N1 (U2). Acesta este un microcontroler puternic cu conectivitate Wi-Fi, Bluetooth, care gestionează procesarea datelor, comunicațiile și controlul general al dispozitivului.
 
     Alimentare:
         Un conector USB-C furnizează intrarea principală de alimentare.
@@ -67,49 +66,36 @@
         Butoanele Boot și Reset permit controlul sistemului și actualizări de firmware.
         Un buton "Change" oferă o intrare din partea utilizatorului.
 
-    Comunicație: ESP32-C6 oferă capabilități de comunicare wireless (Wi-Fi, Bluetooth, Zigbee).
+    Comunicație: ESP32-C6 oferă capabilități de comunicare wireless (Wi-Fi, Bluetooth).
 
     Alte componente:
         Dispozitive de protecție ESD (USBLC6-2SC6Y, PEMF050.1) protejează circuitul de descărcări electrostatice.
         Paduri de test sunt incluse pentru depanare și testare.
         Un conector Qwiic/Stemma QT permite conectarea ușoară a dispozitivelor externe I2C.
+```
 
 ### Utilizarea pinilor ESP32-C6
+```
+    Pini de alimentare: Pinii conectați la 3V3 și GND furnizează alimentare și împământare pentru ESP32-C6.
 
-    Este dificil de oferit numere exacte ale pinilor fără o diagramă de pinout suprapusă peste schemă, dar putem identifica funcțiile pinilor ESP32-C6 pe baza conexiunilor:
+    Comunicație USB: Pinii conectați la conectorul USB-C (prin protecție ESD) sunt utilizați pentru comunicația și alimentarea prin USB.
 
-        Pini de alimentare: Pinii conectați la 3V3 și GND furnizează alimentare și împământare pentru ESP32-C6.
+    Interfață card SD: Pinii conectați la slotul pentru card SD (DAT0, DAT1, DAT2, CMD, CLK) sunt utilizați pentru interfața cu cardul SD.
 
-        Comunicație USB: Pinii conectați la conectorul USB-C (prin protecție ESD) sunt utilizați pentru comunicația și alimentarea prin USB.
+    Comunicație SPI: Pinii conectați la memoria Flash externă (W25Q512JVEIQ) (CS, SCK, DO, DI) sunt utilizați pentru comunicația SPI.
 
-        Interfață card SD: Pinii conectați la slotul pentru card SD (DAT0, DAT1, DAT2, CMD, CLK) sunt utilizați pentru interfața cu cardul SD.
+    Comunicație I2C: Pinii conectați la RTC (DS3231SN) și la conectorul Qwiic (SDA, SCL) sunt utilizați pentru comunicația I2C. Senzorul BME688 utilizează și el I2C, prin tag-ul I2C_PW.
 
-        Comunicație SPI: Pinii conectați la memoria Flash externă (W25Q512JVEIQ) (CS, SCK, DO, DI) sunt utilizați pentru comunicația SPI.
-
-        Comunicație I2C: Pinii conectați la RTC (DS3231SN) și la conectorul Qwiic (SDA, SCL) sunt utilizați pentru comunicația I2C. Senzorul BME688 probabil utilizează și el I2C.
-
-        Pini GPIO:
-            Pinii conectați la butoanele Boot, Reset și Change sunt utilizați ca pini de intrare/ieșire generală (GPIO) pentru a citi starea butoanelor.
-            Pinii conectați la interfața ecranului E-Paper sunt GPIO-uri utilizate pentru a controla afișajul.
-            Alți pini GPIO pot fi utilizați pentru semnale de control sau indicatori de stare.
-
-        Intrare analogică: Unii pini GPIO ar putea fi configurați ca intrări analogice pentru a citi tensiunea bateriei sau alte semnale analogice.
-
-### Motivația alegerii pinilor
-
-    Selecția pinilor într-o schemă este determinată de:
-
-    Disponibilitatea perifericelor ESP32-C6: ESP32-C6 are pini dedicați pentru funcții specifice (SPI, I2C etc.). Proiectanții folosesc acești pini pentru a maximiza eficiența și performanța.
-
-    Layout-ul PCB-ului: Poziționarea pinilor afectează cât de ușor pot fi conectate componentele pe placa de circuit imprimat (PCB). Proiectanții încearcă să minimizeze lungimea traseelor și să evite interferențele.
-
-    Integritatea semnalului: Semnalele critice (cum ar fi SPI de mare viteză sau USB) sunt rutate pe pini specifici pentru a menține calitatea semnalului și pentru a reduce zgomotul.
-
-    Configurare software: Software-ul ESP32-C6 permite o anumită flexibilitate în atribuirea pinilor, dar designul hardware stabilește conexiunile inițiale.
-
+    Pini GPIO:
+        Pinii conectați la butoanele Boot, Reset și Change sunt utilizați ca pini de intrare/ieșire generală (GPIO) pentru a citi starea butoanelor.
+        Pinii conectați la interfața ecranului E-Paper sunt GPIO-uri utilizate pentru a controla afișajul.
+        Alți pini GPIO pot fi utilizați pentru semnale de control sau indicatori de stare.
+```
 
 # ERORI ACCEPTATE
+```
     Am acceptat erorile cauzate de nerutarea pinilor GND deoarece am deja 2 planuri de masă puse pe pe placă, iar eu consider că nu este necesară rutarea acestor pini între ei, în final ei legându-se la masă.
+```
 
 
  
